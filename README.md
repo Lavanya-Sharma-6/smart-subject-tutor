@@ -18,3 +18,14 @@ source .venv/bin/activate
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
 streamlit run app.py
+2. Stop the terminal server by pressing `Ctrl + C` in the terminal, or click the **Source Control** icon on the left sidebar of Web VS Code (`Ctrl + Shift + G`).
+3. Verify that only your $5$ project files appear under **Changes**:
+   * `.gitignore`
+   * `README.md`
+   * `requirements.txt`
+   * `data/subject_notes.md`
+   * `rag_engine.py`
+   * `app.py`
+4. Type the commit message:
+   ```text
+   feat(v1): launch open-source RAG smart subject tutor with adaptive teaching styles
